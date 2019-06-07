@@ -55,7 +55,7 @@ for episode in range(EPISODES):
 
         if episode % SHOW_EVERY == 0:
             env.render()
-        #new_q = (1 - LEARNING_RATE) * current_q + LEARNING_RATE * (reward + DISCOUNT * max_future_q)
+        # new_q = (1 - LEARNING_RATE) * current_q + LEARNING_RATE * (reward + DISCOUNT * max_future_q)
 
         # If simulation did not end yet after last step - update Q table
         if not done:
