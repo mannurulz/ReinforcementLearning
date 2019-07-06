@@ -13,6 +13,7 @@ import os
 from PIL import Image
 import cv2
 
+# Deep Q Learning & Deep Q Network Agent.
 
 DISCOUNT = 0.99
 REPLAY_MEMORY_SIZE = 5_000  # How many last steps to keep for model training
